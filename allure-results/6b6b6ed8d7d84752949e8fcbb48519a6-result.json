@@ -1,0 +1,84 @@
+{
+  "uuid": "582518f7-0842-4ac6-ba85-b77d5492e35b-tr-0-1006",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC06_CheckoutComplete",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC06_CheckoutComplete",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC06_CheckoutComplete"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC06_CheckoutComplete",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC06_CheckoutComplete"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TC06_CheckoutComplete",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Check If image displays",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726602736245,
+          "stop": 1726602736367
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e99e1900faf74d61a5593aed7e6d7fad-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1726602735090,
+      "stop": 1726602736375
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726602735090,
+  "stop": 1726602736375
+}

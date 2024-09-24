@@ -1,0 +1,46 @@
+{
+  "uuid": "2f80becb-3ace-4228-a82e-5c10072afcf2-tc-0-1000",
+  "name": "NUnitAutomationFramework1.Test.AllPageTests.TC02_AddItemPage",
+  "children": [
+    "1f026a74-b9da-449c-bfb6-6db514428551-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1725819043182,
+      "stop": 1725819043182
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "none",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "It's not possible to get status of OneTimeTearDown",
+        "trace": "See Allure.NUnit wiki"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1725819043182,
+      "stop": 1725819043182
+    }
+  ],
+  "links": [],
+  "start": 1725819039042,
+  "stop": 1725819043183
+}

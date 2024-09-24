@@ -1,0 +1,101 @@
+{
+  "uuid": "d44dd97e-c1ed-432c-95a1-91e1a4a768af-tr-0-1004",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC04_CheckoutInfotPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC04_CheckoutInfotPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_CheckoutInfotPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC04_CheckoutInfotPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC04_CheckoutInfotPage"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TC04_CheckoutInfotPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Enter Ora FirstName, Enter Ant lastName, Enter Continue zipNumber, Enter {4} calcelOrContinueOrder",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Ora"
+            },
+            {
+              "name": "String",
+              "value": "Ant"
+            },
+            {
+              "name": "String",
+              "value": "123123123"
+            },
+            {
+              "name": "String",
+              "value": "Continue"
+            }
+          ],
+          "start": 1725906272664,
+          "stop": 1725906278266
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a7d7f0b6853e40deb4c35cbdde6ffce6-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1725906272661,
+      "stop": 1725906278301
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1725906272661,
+  "stop": 1725906278301
+}

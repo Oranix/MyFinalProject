@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<environment>
+  <parameter>
+    <key>browser</key>
+    <value>MicrosoftEdge</value>
+  </parameter>
+  <parameter>
+    <key>browser.version</key>
+    <value>129.0.2792.52</value>
+  </parameter>
+</environment>

@@ -1,0 +1,76 @@
+{
+  "uuid": "b19208f7-ce0c-432c-8414-ab99d0556c3e-tr-0-1002",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC02_ProductsPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC02_ProductsPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_ProductsPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC02_ProductsPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.FormatException : The input string '$7.99' was not in a correct format.",
+    "trace": "   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)\r\n   at System.Convert.ToDouble(String value)\r\n   at AutomationFramework1.PageObjects.AddProductPage.ListItems(String sortDropDown) in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\AddProductPage.cs:line 37\r\n   at NUnitAutomationFramework1.Test.AllPageTests.TC02_ProductsPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 35\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TC02_ProductsPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.FormatException : The input string '$7.99' was not in a correct format.",
+        "trace": "   at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)\r\n   at System.Convert.ToDouble(String value)\r\n   at AutomationFramework1.PageObjects.AddProductPage.ListItems(String sortDropDown) in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\AddProductPage.cs:line 37\r\n   at NUnitAutomationFramework1.Test.AllPageTests.TC02_ProductsPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 35\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "1b77ed61597648e0bd8d46489513d402-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "a894dabe11f54383a3c4496c02dc5935-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1726731504738,
+      "stop": 1726731504983
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726731504738,
+  "stop": 1726731504984
+}

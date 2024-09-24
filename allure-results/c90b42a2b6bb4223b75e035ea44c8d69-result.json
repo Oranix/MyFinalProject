@@ -1,0 +1,111 @@
+{
+  "uuid": "edfbe2c2-ced1-42c9-8e1b-54f13496ba23-tr-0-1004",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC04_CheckoutFillInfoPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC04_CheckoutFillInfoPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_CheckoutFillInfoPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC04_CheckoutFillInfoPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".error-button\"}\n  (Session info: MicrosoftEdge=129.0.2792.52); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.get_ErrorInfo() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\FillInformationPage.cs:line 22\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.__a$_around_FillInfo_100663338_o(String firstName, String lastName, String zipCode, String cancelOrder) in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\FillInformationPage.cs:line 30\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.__a$_around_FillInfo_100663338_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.__a$_around_FillInfo_100663338_w_0(Object[])\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.FillInfo(String firstName, String lastName, String zipCode, String cancelOrder)\r\n   at NUnitAutomationFramework1.Test.AllPageTests.TC04_CheckoutFillInfoPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 71\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TC04_CheckoutFillInfoPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".error-button\"}\n  (Session info: MicrosoftEdge=129.0.2792.52); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.get_ErrorInfo() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\FillInformationPage.cs:line 22\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.__a$_around_FillInfo_100663338_o(String firstName, String lastName, String zipCode, String cancelOrder) in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\FillInformationPage.cs:line 30\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.__a$_around_FillInfo_100663338_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.__a$_around_FillInfo_100663338_w_0(Object[])\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.FillInfo(String firstName, String lastName, String zipCode, String cancelOrder)\r\n   at NUnitAutomationFramework1.Test.AllPageTests.TC04_CheckoutFillInfoPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 71\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Enter Ora FirstName, Enter Ant lastName, Enter Continue zipNumber, Enter {4} calcelOrContinueOrder",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".error-button\"}\n  (Session info: MicrosoftEdge=129.0.2792.52); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+            "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.get_ErrorInfo() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\FillInformationPage.cs:line 22\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.__a$_around_FillInfo_100663338_o(String firstName, String lastName, String zipCode, String cancelOrder) in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\FillInformationPage.cs:line 30\r\n   at NUnitAutomationFramework1.PageObjects.FillInformationPage.__a$_around_FillInfo_100663338_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Ora"
+            },
+            {
+              "name": "String",
+              "value": "Ant"
+            },
+            {
+              "name": "String",
+              "value": ""
+            },
+            {
+              "name": "String",
+              "value": "Continue"
+            }
+          ],
+          "start": 1727022091178,
+          "stop": 1727022091233
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "d60323c94ef740958772312ba8dcceab-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "35d9001ad8d443bbb7535c712661c554-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1727022091151,
+      "stop": 1727022091335
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1727022091151,
+  "stop": 1727022091335
+}

@@ -1,0 +1,101 @@
+{
+  "uuid": "553aa375-8cfc-44d3-84e0-d5dc5819b5f2-tr-0-1004",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC04_CheckoutFillInfoPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC04_CheckoutFillInfoPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_CheckoutFillInfoPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC04_CheckoutFillInfoPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC04_CheckoutFillInfoPage"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TC04_CheckoutFillInfoPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Enter Ora FirstName, Enter Ant lastName, Enter Continue zipNumber, Enter {4} calcelOrContinueOrder",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "Ora"
+            },
+            {
+              "name": "String",
+              "value": "Ant"
+            },
+            {
+              "name": "String",
+              "value": ""
+            },
+            {
+              "name": "String",
+              "value": "Continue"
+            }
+          ],
+          "start": 1727022646193,
+          "stop": 1727022652571
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ac855ffa0c9f45e0abb2041d217e4b3f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1727022646166,
+      "stop": 1727022652571
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1727022646166,
+  "stop": 1727022652571
+}

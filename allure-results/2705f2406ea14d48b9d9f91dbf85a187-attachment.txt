@@ -1,0 +1,11 @@
+No sort selecting
+item name Sauce Labs Backpack
+item name Sauce Labs Bike Light
+item name Sauce Labs Bolt T-Shirt
+item name Sauce Labs Fleece Jacket
+item name Sauce Labs Onesie
+item name Test.allTheThings() T-Shirt (Red)
+You select item: Sauce Labs Bike Light
+Price is: $9.99
+You select item: Sauce Labs Backpack
+Price is: $29.99

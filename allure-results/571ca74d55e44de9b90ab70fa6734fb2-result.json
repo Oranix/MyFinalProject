@@ -1,0 +1,76 @@
+{
+  "uuid": "e320a928-5528-4a06-9183-50ab081e9260-tr-0-1002",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC02_AddItemPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC02_AddItemPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_AddItemPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC02_AddItemPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 9 but was 8. Strings differ at index 0.\r\n  Expected: \"Your Cart\"\r\n  But was:  \"Products\"\r\n  -----------^\r\n",
+    "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC02_AddItemPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 39\r\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TC02_AddItemPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 9 but was 8. Strings differ at index 0.\r\n  Expected: \"Your Cart\"\r\n  But was:  \"Products\"\r\n  -----------^\r\n",
+        "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC02_AddItemPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 39\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "336bf690bebe467096a27b0c8f6d7647-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "9b92266975874342a57aecf82bf3475b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1726662007519,
+      "stop": 1726662011858
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1726662007519,
+  "stop": 1726662011858
+}

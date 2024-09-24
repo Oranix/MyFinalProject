@@ -1,0 +1,6 @@
+item price49.99
+item price29.99
+item price15.99
+item price15.99
+item price9.99
+item price7.99

@@ -1,0 +1,101 @@
+{
+  "uuid": "275e94ba-9bf7-40bf-b25d-6d544d6d1390-tr-0-1004",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC04_CheckoutFillInfoPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC04_CheckoutFillInfoPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_CheckoutFillInfoPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC04_CheckoutFillInfoPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC04_CheckoutFillInfoPage"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TC04_CheckoutFillInfoPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Enter  FirstName, Enter ant lastName, Enter Continue zipNumber, Enter {4} calcelOrContinueOrder",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": ""
+            },
+            {
+              "name": "String",
+              "value": "ant"
+            },
+            {
+              "name": "String",
+              "value": "123123123"
+            },
+            {
+              "name": "String",
+              "value": "Continue"
+            }
+          ],
+          "start": 1727023054328,
+          "stop": 1727023060694
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b6e557fbe0f4445890dfffcd426c6ded-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1727023054301,
+      "stop": 1727023060695
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1727023054301,
+  "stop": 1727023060695
+}
