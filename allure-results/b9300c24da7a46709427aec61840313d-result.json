@@ -1,0 +1,90 @@
+{
+  "uuid": "e9e86715-b562-453f-ae31-4de83b6bb34e-tr-0-1006",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC06_CheckoutComplete",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC06_CheckoutComplete",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC06_CheckoutComplete"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC06_CheckoutComplete",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=129.0.2792.52)\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=129.0.2792.52)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.get_IsImageDisplayed() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\CheckoutCompletePage.cs:line 17\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.__a$_around_IsFinish_100663317_o() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\CheckoutCompletePage.cs:line 30\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.__a$_around_IsFinish_100663317_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.__a$_around_IsFinish_100663317_w_0(Object[])\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.IsFinish()\r\n   at NUnitAutomationFramework1.Test.AllPageTests.TC06_CheckoutComplete() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 90\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at NUnitAutomationFramework1.Test.BaseTest.TakeScreenShotOnFailure() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\BaseTest.cs:line 97\r\n   at InvokeStub_BaseTest.TakeScreenShotOnFailure(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "\nTakeScreenShotOnFailure TearDown method failed\n\nTearDown OneTimeTearDown method failed\n",
+  "steps": [
+    {
+      "name": "TC06_CheckoutComplete",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=129.0.2792.52)\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=129.0.2792.52)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.get_IsImageDisplayed() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\CheckoutCompletePage.cs:line 17\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.__a$_around_IsFinish_100663317_o() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\CheckoutCompletePage.cs:line 30\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.__a$_around_IsFinish_100663317_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.__a$_around_IsFinish_100663317_w_0(Object[])\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.IsFinish()\r\n   at NUnitAutomationFramework1.Test.AllPageTests.TC06_CheckoutComplete() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 90\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at NUnitAutomationFramework1.Test.BaseTest.TakeScreenShotOnFailure() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\BaseTest.cs:line 97\r\n   at InvokeStub_BaseTest.TakeScreenShotOnFailure(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Check If image displays",
+          "status": "failed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false,
+            "message": "no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=129.0.2792.52)",
+            "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.get_IsImageDisplayed() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\CheckoutCompletePage.cs:line 17\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.__a$_around_IsFinish_100663317_o() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\CheckoutCompletePage.cs:line 30\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.__a$_around_IsFinish_100663317_u(Object[])\r\n   at NUnit.Allure.Core.Steps.AllureStepAspect.WrapStep(String name, MethodBase methodBase, Object[] arguments, Func`2 method)"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1727257038450,
+          "stop": 1727257038512
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "165ace5a9f714cc3bbdc9984f4fa89b2-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1727257038447,
+      "stop": 1727257038516
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1727257038447,
+  "stop": 1727257038516
+}

@@ -1,0 +1,85 @@
+{
+  "uuid": "fb2adacf-8910-4ed9-9b69-3bab1199b113-tr-0-1007",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC07_CheckoutComplete",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC07_CheckoutComplete",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC07_CheckoutComplete"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC07_CheckoutComplete",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC07_CheckoutComplete"
+  },
+  "stage": "finished",
+  "description": "Checkout order and return to products page\n",
+  "steps": [
+    {
+      "name": "TC07_CheckoutComplete",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Check If image displays",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1728488221774,
+          "stop": 1728488221807
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "bab888feb7034390b5a2f2d73e5d861d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1728488221773,
+      "stop": 1728488227957
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1728488221773,
+  "stop": 1728488227957
+}

@@ -1,8 +1,0 @@
-No sort selecting
-You select item: Sauce Labs Bike Light
-Price is: $9.99
-You select item: Sauce Labs Backpack
-Price is: $29.99
-You select item: Sauce Labs Bolt T-Shirt
-Price is: $15.99
-Items in cart: 3

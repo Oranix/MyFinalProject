@@ -1,0 +1,69 @@
+{
+  "uuid": "48545a41-ff8f-4f43-90d2-57556b44c44c-tr-0-1002",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC02_ProductsPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC02_ProductsPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_ProductsPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC02_ProductsPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC02_ProductsPage"
+  },
+  "stage": "finished",
+  "description": "Select items from the products page\n",
+  "steps": [
+    {
+      "name": "TC02_ProductsPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ee5153a70da341b7b87b42202817e643-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1728473132051,
+      "stop": 1728473146600
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1728473132051,
+  "stop": 1728473146600
+}

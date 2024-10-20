@@ -12,25 +12,32 @@ namespace AutomationFramework1.PageObjects
         public LoginPage(IWebDriver driver) : base (driver) {}
         public IWebElement UserName => Driver.FindElement(By.CssSelector("#user-name"));
         public IWebElement Password => Driver.FindElement(By.CssSelector("#password"));
-        public IWebElement LoginBtn => Driver.FindElement(By.CssSelector("#login-button"));
-        public IWebElement MainMenu => Driver.FindElement(By.CssSelector("#react-burger-menu-btn"));
-        public IWebElement LogoutBtn => Driver.FindElement(By.CssSelector("#logout_sidebar_link"));
+        public IWebElement LoginBtn => Driver.FindElement(By.CssSelector("#login-button"));       
         public IWebElement Submit => Driver.FindElement(By.CssSelector("#login_credentials > h4"));
+        public IWebElement ErrorLogin => Driver.FindElement(By.CssSelector(".error-message-container.error > h3"));
 
-        public void login (string userName, string password)
+        public string login (string userName, string password)
         {
-            fillText(UserName, userName);
-            fillText(Password, password);
-            Click(LoginBtn);
+            if (userName != "standard_user" ||/* userName != "locked_out_user" || userName != "problem_user" || userName != "performance_glitch_user" || userName != "error_user" || userName != "visual_user" ||*/ password != "secret_sauce" )
+            {
+                fillText(UserName, userName);
+                fillText(Password, password);
+                Click(LoginBtn);
+                PrintText(ErrorLogin);
+                return PrintText(ErrorLogin);
+            }
+            else
+            {
+                fillText(UserName, userName);
+                fillText(Password, password);
+                Click(LoginBtn);
+                return "LoginPass";
+            }
         }       
-        public void logout()
-        {
-            Click(MainMenu);
-            Click(LogoutBtn);
-        }
+      
         public string checkUsersApproved()
         {
-            return Submit.Text;
+            return PrintText(Submit);
         }
     }
 }

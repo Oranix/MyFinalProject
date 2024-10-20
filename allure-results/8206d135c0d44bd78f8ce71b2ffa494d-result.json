@@ -1,0 +1,88 @@
+{
+  "uuid": "d3aa129a-f5f7-474a-b4c4-f7cdbe237dc0-tr-0-1007",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC07_CheckoutComplete",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC07_CheckoutComplete",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC07_CheckoutComplete"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC07_CheckoutComplete",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=129.0.2792.79)\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=129.0.2792.79)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.get_Text()\r\n   at AutomationFramework1.PageObjects.BasePage.PrintText(IWebElement el) in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\BasePage.cs:line 35\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.PrintCheckoutFinishLabel() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\CheckoutCompletePage.cs:line 22\r\n   at NUnitAutomationFramework1.Test.AllPageTests.TC07_CheckoutComplete() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 99\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at NUnitAutomationFramework1.Test.BaseTest.TakeScreenShotOnFailure() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\BaseTest.cs:line 97\r\n   at InvokeStub_BaseTest.TakeScreenShotOnFailure(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "\nTakeScreenShotOnFailure TearDown method failed\n\nTearDown OneTimeTearDown method failed\nCheckout order and return to products page\n",
+  "steps": [
+    {
+      "name": "TC07_CheckoutComplete",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=129.0.2792.79)\r\nTearDown : OpenQA.Selenium.NoSuchWindowException : no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge=129.0.2792.79)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.get_Text()\r\n   at AutomationFramework1.PageObjects.BasePage.PrintText(IWebElement el) in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\BasePage.cs:line 35\r\n   at NUnitAutomationFramework1.PageObjects.CheckoutCompletePage.PrintCheckoutFinishLabel() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\CheckoutCompletePage.cs:line 22\r\n   at NUnitAutomationFramework1.Test.AllPageTests.TC07_CheckoutComplete() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 99\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--TearDown\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.GetScreenshot()\r\n   at NUnitAutomationFramework1.Test.BaseTest.TakeScreenShotOnFailure() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\BaseTest.cs:line 97\r\n   at InvokeStub_BaseTest.TakeScreenShotOnFailure(Object, Object, IntPtr*)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Check If image displays",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1728487653468,
+          "stop": 1728487653501
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "36ec5b86a5344bc8bab94efac2d29afe-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1728487653468,
+      "stop": 1728487654532
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1728487653468,
+  "stop": 1728487654532
+}

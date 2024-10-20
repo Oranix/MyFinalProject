@@ -1,0 +1,77 @@
+{
+  "uuid": "276b60ec-41f4-4dd7-abe3-9ab45d06b4e9-tr-0-1003",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC03_ShoppingCartPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC03_ShoppingCartPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC03_ShoppingCartPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC03_ShoppingCartPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div id=\"shopping_cart_container\" class=\"shopping_cart_container visual_failure\">...</div> is not clickable at point (1031, 4). Other element would receive the click: <select class=\"product_sort_container\" data-test=\"product-sort-container\">...</select>\n  (Session info: MicrosoftEdge=129.0.2792.65)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at AutomationFramework1.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\BasePage.cs:line 29\r\n   at NUnitAutomationFramework1.PageObjects.ShoppingCartPage.ShoppingCart() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\ShoppingCartPage.cs:line 36\r\n   at NUnitAutomationFramework1.Test.AllPageTests.TC03_ShoppingCartPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 57\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "description": "Items in shop cart\n",
+  "steps": [
+    {
+      "name": "TC03_ShoppingCartPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <div id=\"shopping_cart_container\" class=\"shopping_cart_container visual_failure\">...</div> is not clickable at point (1031, 4). Other element would receive the click: <select class=\"product_sort_container\" data-test=\"product-sort-container\">...</select>\n  (Session info: MicrosoftEdge=129.0.2792.65)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at AutomationFramework1.PageObjects.BasePage.Click(IWebElement el) in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\BasePage.cs:line 29\r\n   at NUnitAutomationFramework1.PageObjects.ShoppingCartPage.ShoppingCart() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\PageObjects\\ShoppingCartPage.cs:line 36\r\n   at NUnitAutomationFramework1.Test.AllPageTests.TC03_ShoppingCartPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 57\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "bd46dc5e41af448880dc1f9a4e2b1dde-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "fc9ad2bda89b4f75b8b8bfe6cfb0001f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1728111779924,
+      "stop": 1728111783257
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1728111779924,
+  "stop": 1728111783257
+}

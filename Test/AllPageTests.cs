@@ -17,65 +17,77 @@ namespace NUnitAutomationFramework1.Test
     
     internal class AllPageTests : BaseTest
     {
-        public string itemSelect1;
-        public string itemSelect2;
-        public string itemSelect3;
+        public string itemSelect1 = "Sauce Labs Fleece Jacket";
+        public string itemSelect2 = "Sauce Labs Onesie";
+        public string itemSelect3 = "Sauce Labs Bolt T-Shirt";
 
         [AllureSeverity(SeverityLevel.normal)]
         [Test, Description("Login to the web user")]  //Display in Allure 
-        public void TC01_LoginPage()
+        public void TC01_Login()
         {
-            LoginPage lp = new LoginPage(driver);        
-            lp.login("standard_user", "secret_sauce");
-            //lp.logout();
-            //Assert.That(lp.checkUsersApproved(), Is.EqualTo("Accepted usernames are:"));
+            LoginPage lp = new LoginPage(driver);
+            Assert.That(lp.login("standard_user", "secret_sauce"), Is.EqualTo("LoginPass"));            
         }
 
         [AllureSeverity(SeverityLevel.normal)]
-        [Test]
-        public void TC02_ProductsPage()
-        {            
-            ProductPage ai = new ProductPage(driver);
+        [Test, Description("Display the product page")]
+        public void TC02_Product()
+        {
+            ShoppingCartPage sp = new ShoppingCartPage(driver);           
+            ProductPage pp = new ProductPage(driver);
+            pp.productPage(itemSelect1);
+            Assert.That(pp.ChecImageDisplayed());
+            pp.ReturntoAllProductsPage();
+           
+            pp.productPage(itemSelect2);
+            Assert.That(pp.ChecImageDisplayed());
+            pp.ReturntoAllProductsPage();
+            
+            pp.productPage(itemSelect3);
+            Assert.That(pp.ChecImageDisplayed());
+            pp.ReturntoAllProductsPage();
+            Assert.That(sp.IsLabelDisplay(), Is.EqualTo("Products"));
+        }
+
+        [AllureSeverity(SeverityLevel.normal)]
+        [Test, Description("Select items from the products page")]
+        public void TC03_AllProducts()
+        {
+            AllProductsPage ai = new AllProductsPage(driver);
             ShoppingCartPage sp = new ShoppingCartPage(driver);
             Assert.That(sp.IsLabelDisplay(), Is.EqualTo("Products"));
-            ai.ListItems("");                                  // value="az" >Name (A to Z),  value="za" > Name (Z to A), value="lohi" > Price (low to high), value="hilo" > Price (high to low)
-            itemSelect1 = "Sauce Labs Bike Light";             // add 3 items
-            itemSelect2 = "Sauce Labs Backpack";
-            itemSelect3 = "Sauce Labs Bolt T-Shirt";
-            ai.AddProduct(itemSelect1);                                                                         
+            ai.ListItems("az");                     // value="az" >Name (A to Z),  value="za" > Name (Z to A), value="lohi" > Price (low to high), value="hilo" > Price (high to low)            
+            ai.AddProduct(itemSelect1);
             ai.AddProduct(itemSelect2);
             ai.AddProduct(itemSelect3);
             Assert.That(ai.ProductsAmountInCartShop(), Is.EqualTo("3"));
         }
 
         [AllureSeverity(SeverityLevel.normal)]
-        [Test]
-        public void TC03_ShoppingCartPage()
-        {           
+        [Test, Description("Items in shop cart")]
+        public void TC04_ShoppingCart()
+        {
             ShoppingCartPage sp = new ShoppingCartPage(driver);
             sp.ShoppingCart();
-            Assert.That(sp.IsLabelDisplay(), Is.EqualTo("Your Cart"));  
-            sp.ItemDesc(itemSelect1);
-            sp.ItemDesc(itemSelect2);
-            sp.ItemDesc(itemSelect3);
-            sp.RemoveanItem(itemSelect2);               //Remove an item
+            Assert.That(sp.IsLabelDisplay(), Is.EqualTo("Your Cart"));        
+            sp.RemoveanItem(itemSelect2);                //Remove an item
             Assert.That(sp.ProductsAmountInCartShop(), Is.EqualTo("2"));
             sp.ProcedToCheckOut("Checkout");            //or Continue shopping         
         }
 
         [AllureSeverity(SeverityLevel.normal)]
-        [Test]
-        public void TC04_CheckoutFillInfoPage()
+        [Test, Description("Enter user information")]
+        public void TC05_CheckoutFillInfoPage()
         {
             CheckoutOverviewPage ch = new CheckoutOverviewPage(driver);
             FillInformationPage cp = new FillInformationPage(driver);
-            Assert.That(cp.LabelCheck(), Is.EqualTo("Checkout: Your Information"));  //Validate next page display
-            cp.FillUserInformation("ora", "ant", "123123123");  
+            Assert.That(cp.LabelCheck(), Is.EqualTo("Checkout: Your Information"));  //Validate next page is display
+            Assert.That(cp.FillUserInformation("Or", "Ant", "111111"), Is.EqualTo("All information entered"));
         }
 
         [AllureSeverity(SeverityLevel.normal)]
-        [Test]
-        public void TC05_CheckoutOverview()
+        [Test, Description("overview items and prices before send to delivery")]
+        public void TC06_CheckoutOverview()
         {
             CheckoutOverviewPage ch = new CheckoutOverviewPage(driver);
             Assert.That(ch.IsLabelDisplay(), Is.EqualTo("Checkout: Overview"));
@@ -83,14 +95,21 @@ namespace NUnitAutomationFramework1.Test
         }
 
         [AllureSeverity(SeverityLevel.critical)]
-        [Test]
-        public void TC06_CheckoutComplete()
+        [Test, Description("Checkout order and return to products page")]
+        public void TC07_CheckoutComplete()
         {
             CheckoutCompletePage cp = new CheckoutCompletePage(driver);
-            Assert.That(cp.IsFinish());       //Validate the finish image is display
-            cp.PrintCheckoutFinishLabel();           
-            ShoppingCartPage sp = new ShoppingCartPage(driver);
-            Assert.That(sp.IsLabelDisplay(), Is.EqualTo("Products"));
+            cp.PrintCheckoutFinishLabel();
+            Assert.That(cp.IsFinish());       //Validate the finish image is display                     
+        }
+
+        [AllureSeverity(SeverityLevel.normal)]
+        [Test, Description("Login to the web user")]  //Display in Allure 
+        public void TC08_Logout()
+        {
+            LogoutPage logoutPage = new LogoutPage(driver);
+            logoutPage.LogoutFromUser();
+            Assert.That(logoutPage.checkUsersApproved(), Is.EqualTo("Epic sadface: Username is required"));
         }
 
     }

@@ -1,0 +1,77 @@
+{
+  "uuid": "9ac9f29c-e4ae-4aae-8eb2-3f2c81c7d8ed-tr-0-1006",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC06_CheckoutOverview",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC06_CheckoutOverview",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC06_CheckoutOverview"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC06_CheckoutOverview",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 18 but was 9. Strings differ at index 0.\r\n  Expected: \"Checkout: Overview\"\r\n  But was:  \"Your Cart\"\r\n  -----------^\r\n",
+    "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC06_CheckoutOverview() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 89\r\n"
+  },
+  "stage": "finished",
+  "description": "Overview items and prices before send to delivery\n",
+  "steps": [
+    {
+      "name": "TC06_CheckoutOverview",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 18 but was 9. Strings differ at index 0.\r\n  Expected: \"Checkout: Overview\"\r\n  But was:  \"Your Cart\"\r\n  -----------^\r\n",
+        "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC06_CheckoutOverview() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 89\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "b83794f633a449d0ad25fc9b1a774f0b-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "5ba1453aaff9439c954d303706546cca-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1728473546817,
+      "stop": 1728473547990
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1728473546817,
+  "stop": 1728473547991
+}

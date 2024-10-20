@@ -1,0 +1,69 @@
+{
+  "uuid": "fb815f20-2fed-435c-851d-65d885aea13b-tr-0-1004",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC04_ShoppingCartPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC04_ShoppingCartPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_ShoppingCartPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC04_ShoppingCartPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC04_ShoppingCartPage"
+  },
+  "stage": "finished",
+  "description": "Items in shop cart\n",
+  "steps": [
+    {
+      "name": "TC04_ShoppingCartPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2f82b24ca59e47bbbd0792f441fc1b1e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1729336500229,
+      "stop": 1729336511610
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729336500229,
+  "stop": 1729336511610
+}

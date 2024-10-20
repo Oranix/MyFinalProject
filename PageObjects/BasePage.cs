@@ -25,16 +25,21 @@ namespace AutomationFramework1.PageObjects
 
         public void Click(IWebElement el)
         {
-            Thread.Sleep(2000);
+            Thread.Sleep(1000);
             el.Click();
         }
 
-        public void PrintText(IWebElement el)
+        public string PrintText(IWebElement el)
         {
             Thread.Sleep(1000);
-            Console.WriteLine(el.Text);
+            return el.Text;
         }
         
+        public void PrintInfromation(IWebElement el)
+        {
+            Thread.Sleep(500);
+            Console.WriteLine(el.Text);
+        }
 
     }
 }

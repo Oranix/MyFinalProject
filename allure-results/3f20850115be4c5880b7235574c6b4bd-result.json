@@ -1,0 +1,69 @@
+{
+  "uuid": "aad15b51-84a1-4a9b-9409-f9d6d93fa210-tr-0-1002",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC02_ProductPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC02_ProductPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC02_ProductPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC02_ProductPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC02_ProductPage"
+  },
+  "stage": "finished",
+  "description": "Display the product page\n",
+  "steps": [
+    {
+      "name": "TC02_ProductPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "23920a7e26bd4e9899e0e2cd2b0b85ab-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1729337586067,
+      "stop": 1729337605815
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729337586067,
+  "stop": 1729337605815
+}

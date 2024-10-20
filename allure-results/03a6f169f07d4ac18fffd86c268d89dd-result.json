@@ -1,0 +1,69 @@
+{
+  "uuid": "28363389-20fe-466f-a816-98c9071ece39-tr-0-1005",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC05_CheckoutOverview",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC05_CheckoutOverview",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC05_CheckoutOverview"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC05_CheckoutOverview",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC05_CheckoutOverview"
+  },
+  "stage": "finished",
+  "description": "Overview items and prices before send to delivery\n",
+  "steps": [
+    {
+      "name": "TC05_CheckoutOverview",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "1df740f06ca64782aa1602be4150290c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1728111087399,
+      "stop": 1728111097822
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1728111087399,
+  "stop": 1728111097822
+}

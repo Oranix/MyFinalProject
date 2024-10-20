@@ -1,0 +1,69 @@
+{
+  "uuid": "aed7829a-4600-4817-af7c-ba5c0fff93a2-tr-0-1001",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC01_LoginPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC01_LoginPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC01_LoginPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC01_LoginPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC01_LoginPage"
+  },
+  "stage": "finished",
+  "description": "Login to the web user\n",
+  "steps": [
+    {
+      "name": "TC01_LoginPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "b68bf18aa5a84b50b9447d8a781652dc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1729337581669,
+      "stop": 1729337586038
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729337581669,
+  "stop": 1729337586041
+}

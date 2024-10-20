@@ -15,16 +15,17 @@ namespace NUnitAutomationFramework1.PageObjects
 
         public IWebElement FinishLabel => Driver.FindElement(By.CssSelector(".complete-header"));
         public IWebElement IsImageDisplayed => Driver.FindElement(By.CssSelector(".pony_express"));
+        public IWebElement FinishBtn => Driver.FindElement(By.CssSelector("#finish"));
         public IWebElement BacktoProductsButton => Driver.FindElement(By.CssSelector("#back-to-products"));
 
         public void PrintCheckoutFinishLabel()
         {
-            PrintText(FinishLabel);
-            Thread.Sleep(2000);
-            Click(BacktoProductsButton);
+            Click(FinishBtn);
+            Thread.Sleep(500);
+            PrintInfromation(FinishLabel);         
         }
 
-        [AllureStep("Check If image displays")]      //Step description 
+        [AllureStep("Check if the last finish image is display")]      //Step description 
         public bool IsFinish()
         {
             return IsImageDisplayed.Displayed ? true : false;

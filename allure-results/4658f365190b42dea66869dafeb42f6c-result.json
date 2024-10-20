@@ -1,0 +1,77 @@
+{
+  "uuid": "462c3771-bf40-4def-bebe-e16a55a004b5-tr-0-1004",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC04_ShoppingCartPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC04_ShoppingCartPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC04_ShoppingCartPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC04_ShoppingCartPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 9 but was 8. Strings differ at index 0.\r\n  Expected: \"Your Cart\"\r\n  But was:  \"Products\"\r\n  -----------^\r\n",
+    "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC04_ShoppingCartPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 75\r\n"
+  },
+  "stage": "finished",
+  "description": "Items in shop cart\n",
+  "steps": [
+    {
+      "name": "TC04_ShoppingCartPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 9 but was 8. Strings differ at index 0.\r\n  Expected: \"Your Cart\"\r\n  But was:  \"Products\"\r\n  -----------^\r\n",
+        "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC04_ShoppingCartPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 75\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "15a827ee7a9545c5b80728d6d2459091-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "abc0f62b48f04c57a9a666b7ce12f5c5-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1729179919365,
+      "stop": 1729179920657
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729179919365,
+  "stop": 1729179920657
+}

@@ -23,7 +23,7 @@ namespace NUnitAutomationFramework1.PageObjects
 
 
         [AllureStep("Enter {0} FirstName, Enter {1} lastName, Enter {3} zipNumber, Enter {4} calcelOrContinueOrder")]
-        public void FillUserInformation(string firstName, string lastName, string zipCode)
+        public string FillUserInformation(string firstName, string lastName, string zipCode)
         {
             if (firstName == "" || lastName == "" || zipCode == "")
             {
@@ -31,7 +31,7 @@ namespace NUnitAutomationFramework1.PageObjects
                 fillText(LastName, lastName);
                 fillText(PostalCode, zipCode);
                 Click(ContinueBtnField);
-                PrintText(ErrorInfo);
+                return ErrorInfo.Text;
             }
             else
             {
@@ -39,11 +39,12 @@ namespace NUnitAutomationFramework1.PageObjects
                 fillText(LastName, lastName);
                 fillText(PostalCode, zipCode);
                 Click(ContinueBtnField);
+                return "All information entered";
             }
         }
         public string LabelCheck()
         {
-            return LabelDisplayCheck.Text;
+            return PrintText(LabelDisplayCheck);
         }
     }
 }

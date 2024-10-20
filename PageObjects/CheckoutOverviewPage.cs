@@ -25,20 +25,19 @@ namespace NUnitAutomationFramework1.PageObjects
        
         public void ItemOverview()
         {
-            
-            PrintText(PaymantInfo);
-            PrintText(PaymantValue);
-            PrintText(ShippingInfo);
-            PrintText(ShippingValue);
-            PrintText(PriceTotal);
-            PrintText(ItemTotal);
-            PrintText(TaxTotal);
-            PrintText(Total);
-            Click(FinishBtn);
+            PrintInfromation(PaymantInfo);
+            PrintInfromation(PaymantValue);
+            PrintInfromation(ShippingInfo);
+            PrintInfromation(ShippingValue);
+            PrintInfromation(PriceTotal);
+            PrintInfromation(ItemTotal);
+            PrintInfromation(TaxTotal);
+            PrintInfromation(Total);
+            PrintInfromation(FinishBtn);
         }
         public string IsLabelDisplay()
         {
-            return LabelCheck.Text;
+            return PrintText(LabelCheck);
         }
     }
 }

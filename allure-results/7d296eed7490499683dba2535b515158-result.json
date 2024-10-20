@@ -1,0 +1,106 @@
+{
+  "uuid": "f7c7cdd0-d092-4046-b86d-afd2ad7c7b21-tr-0-1005",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC05_CheckoutFillInfoPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC05_CheckoutFillInfoPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC05_CheckoutFillInfoPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC05_CheckoutFillInfoPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 23 but was 30. Strings differ at index 0.\r\n  Expected: \"All information entered\"\r\n  But was:  \"Error: Postal Code is required\"\r\n  -----------^\r\n",
+    "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC05_CheckoutFillInfoPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 88\r\n"
+  },
+  "stage": "finished",
+  "description": "Enter user information\n",
+  "steps": [
+    {
+      "name": "TC05_CheckoutFillInfoPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 23 but was 30. Strings differ at index 0.\r\n  Expected: \"All information entered\"\r\n  But was:  \"Error: Postal Code is required\"\r\n  -----------^\r\n",
+        "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC05_CheckoutFillInfoPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 88\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Enter ora FirstName, Enter ant lastName, Enter {3} zipNumber, Enter {4} calcelOrContinueOrder",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [
+            {
+              "name": "String",
+              "value": "ora"
+            },
+            {
+              "name": "String",
+              "value": "ant"
+            },
+            {
+              "name": "String",
+              "value": ""
+            }
+          ],
+          "start": 1729329156531,
+          "stop": 1729329161858
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "3245f9b1915040eeab169bd3fd38a2df-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "7fa3d497fb7e4ff8946ddd92640a0cea-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1729329155484,
+      "stop": 1729329161996
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729329155484,
+  "stop": 1729329161997
+}

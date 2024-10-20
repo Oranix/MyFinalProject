@@ -1,0 +1,69 @@
+{
+  "uuid": "7cc7eba0-7e3b-49c8-8c42-706638f68a5b-tr-0-1008",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC08_LogoutPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC08_LogoutPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC08_LogoutPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC08_LogoutPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TC08_LogoutPage"
+  },
+  "stage": "finished",
+  "description": "Login to the web user\n",
+  "steps": [
+    {
+      "name": "TC08_LogoutPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "697c135e92324ddbb0cd9ed130bc5e7b-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1729340786019,
+      "stop": 1729340791323
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729340786019,
+  "stop": 1729340791323
+}

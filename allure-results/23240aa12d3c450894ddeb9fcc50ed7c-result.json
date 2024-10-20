@@ -1,0 +1,77 @@
+{
+  "uuid": "26a40cae-0b54-412c-907e-83a2665e52ea-tr-0-1008",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC08_LogoutPage",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC08_LogoutPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC08_LogoutPage"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    }
+  ],
+  "links": [],
+  "name": "TC08_LogoutPage",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 13 but was 34. Strings differ at index 0.\r\n  Expected: \"Login Sucsess\"\r\n  But was:  \"Epic sadface: Username is required\"\r\n  -----------^\r\n",
+    "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC08_LogoutPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 112\r\n"
+  },
+  "stage": "finished",
+  "description": "Login to the web user\n",
+  "steps": [
+    {
+      "name": "TC08_LogoutPage",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 13 but was 34. Strings differ at index 0.\r\n  Expected: \"Login Sucsess\"\r\n  But was:  \"Epic sadface: Username is required\"\r\n  -----------^\r\n",
+        "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC08_LogoutPage() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 112\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "2dac8d663b53408185d17a5c96cbe1d3-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "6c0752405a9548b7b386c97a87c51ad8-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1729340636157,
+      "stop": 1729340641593
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729340636157,
+  "stop": 1729340641593
+}

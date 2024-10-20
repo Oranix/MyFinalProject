@@ -1,0 +1,93 @@
+{
+  "uuid": "36203d85-6077-4e60-b36a-5dbf66704087-tr-0-1007",
+  "historyId": "NUnitAutomationFramework1.Test.AllPageTests.TC07_CheckoutComplete",
+  "fullName": "NUnitAutomationFramework1.Test.AllPageTests.TC07_CheckoutComplete",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ILCALT0123"
+    },
+    {
+      "name": "package",
+      "value": "NUnitAutomationFramework1.Test"
+    },
+    {
+      "name": "testMethod",
+      "value": "TC07_CheckoutComplete"
+    },
+    {
+      "name": "testClass",
+      "value": "AllPageTests"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    }
+  ],
+  "links": [],
+  "name": "TC07_CheckoutComplete",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected string length 8 but was 19. Strings differ at index 0.\r\n  Expected: \"Products\"\r\n  But was:  \"Checkout: Complete!\"\r\n  -----------^\r\n",
+    "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC07_CheckoutComplete() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 109\r\n"
+  },
+  "stage": "finished",
+  "description": "Checkout order and return to products page\n",
+  "steps": [
+    {
+      "name": "TC07_CheckoutComplete",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Expected string length 8 but was 19. Strings differ at index 0.\r\n  Expected: \"Products\"\r\n  But was:  \"Checkout: Complete!\"\r\n  -----------^\r\n",
+        "trace": "   at NUnitAutomationFramework1.Test.AllPageTests.TC07_CheckoutComplete() in C:\\Users\\ora\\source\\repos\\AutomationFramework1\\NUnitAutomationFramework1\\Test\\AllPageTests.cs:line 109\r\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "name": "Check if the last finish image is display",
+          "status": "passed",
+          "statusDetails": {
+            "known": false,
+            "muted": false,
+            "flaky": false
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1729339355781,
+          "stop": 1729339355795
+        }
+      ],
+      "attachments": [
+        {
+          "name": "Full page screenshot",
+          "source": "f7ed652734ac44cd9a36fdf428383058-attachment",
+          "type": "image/jpeg"
+        },
+        {
+          "name": "Console Output",
+          "source": "eed46c9105e54a1da17e184de7e9c100-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1729339353673,
+      "stop": 1729339356977
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1729339353673,
+  "stop": 1729339356978
+}

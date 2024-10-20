@@ -35,7 +35,8 @@ namespace NUnitAutomationFramework1.Test
             switch (browserName)
             {
                 case "chrome":
-                    new DriverManager().SetUpDriver(new ChromeConfig());
+                    //new DriverManager().SetUpDriver(new ChromeConfig());
+                    
                     driver = new ChromeDriver();
                     if (!allureEnvWritten)   //TO SHOW THE GLOBAL INFORMATION ABOUT THE BROWSER LIKE VERSION AND TYPE
                     {
